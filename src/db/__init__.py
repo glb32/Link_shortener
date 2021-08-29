@@ -1,7 +1,7 @@
 import pymongo
 
 
-client = pymongo.MongoClient("mongodb+srv://admin:admin@cluster0.goify.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+client = pymongo.MongoClient("url")
 db = client.URLshorten
 URLcollection = db.URLs
 
